@@ -1,0 +1,8 @@
+.pcontainer{
+    background-image: url(../image/woman-bus@3x.jpg); 
+    height: 100%; 
+    width: 100% ;  
+    background-size: auto;
+    padding: 80px;
+    margin: 0;
+}
