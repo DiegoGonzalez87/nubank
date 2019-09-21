@@ -1,8 +1,122 @@
+.encabe{
+    background-color:#000; 
+    color: aliceblue;
+    padding: 20px 10px 20px 10px;
+}
+/*-----Menu-----*/
+.menu {
+    padding: 0;
+    border-bottom: 1px solid rgb(138, 5, 190);
+}
+
+.btn_clas{
+	text-decoration: none;
+    height: 100%;
+    background-color: rgb(138, 5, 190);
+    display: block;
+	color: #fff;
+    padding: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+}
+
+.btn_clas1{
+	text-decoration: none;
+    height: 100%;
+    background-color: #fff;
+    display: block;
+	color: rgb(138, 5, 190);
+    padding: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+}
+.btn_clas:hover{
+	text-decoration: none;
+    height: 100%;
+    background-color: rgb(138, 5, 190);
+    display: block;
+	color: #fff;
+    padding: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+}
+.btn_clas1:hover{
+	text-decoration: none;
+    height: 100%;
+    background-color: #fff;
+    display: block;
+	color: rgb(138, 5, 190);
+    padding: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+}
+
+/*-----Seccion 1-----*/
 .pcontainer{
     background-image: url(../image/woman-bus@3x.jpg); 
     height: 100%; 
     width: 100% ;  
-    background-size: auto;
-    padding: 80px;
-    margin: 0;
+    background-size: cover;
+    padding: 150px;
+    margin-top: 40px;
+}
+.pcontainer h1{
+    line-height: 1.125em;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+}
+
+.pcontainer p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+    display: block;
+}
+
+.pcontainer button{
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    min-height: 56px;
+    white-space: nowrap;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(138, 5, 190);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 2px, rgba(0, 0, 0, 0.14) 0px 0px 2px;
+    -webkit-appearance: none !important;
+    border-radius: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    padding: 19px 32px;
+    transition: all 200ms ease-in-out 0s;
+}
+
+/*-----Seccion 1-----*/
+
+.scontainer p{
+    font-size: 32px;
+    line-height: 1.5;
+    color: #000;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+    display: block;
 }
