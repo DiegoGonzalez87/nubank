@@ -1,12 +1,22 @@
 .encabe{
     background-color:#000; 
-    color: aliceblue;
+    color: #fff;
     padding: 20px 10px 20px 10px;
 }
 /*-----Menu-----*/
+nav{
+   
+}
+.navbar{
+    background-color: #fff;
+}
 .menu {
     padding: 0;
     border-bottom: 1px solid rgb(138, 5, 190);
+    background-color: #fff;
+    position: fixed;
+    top:0;left: 0; right: 0;
+    z-index: 1;
 }
 
 .btn_clas{
@@ -57,12 +67,17 @@
 
 /*-----Seccion 1-----*/
 .pcontainer{
-    background-image: url(../image/woman-bus@3x.jpg); 
-    height: 100%; 
-    width: 100% ;  
+    background: url(../image/woman-bus@3x.jpg);
+    /* height: 100%;   */
+    /* grid-area: 2 / 2 / 4 / 16; */
+    max-width: auto;
+    height: 100%;  
+    object-fit: cover;
     background-size: cover;
-    padding: 150px;
-    margin-top: 40px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    margin-top: 120px;
+    /* display: block; */
 }
 .pcontainer h1{
     line-height: 1.125em;
@@ -109,22 +124,23 @@
     transition: all 200ms ease-in-out 0s;
 }
 
-/*-----Seccion 1-----*/
+/*-----Seccion 2-----*/
 .scontainer{
-    padding: 50px;
-    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* display: block; */
 }
 .scontainer h1{
+    line-height: 1.125em;
     font-size: 48px;
-    line-height: 1.5;
     color: rgb(138, 5, 190);;
     text-decoration: none;
     text-rendering: optimizeLegibility;
     font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
-    display: block;
+    /* display: block; */
 }
 .scontainer p{
-    font-size: 48px;
+    font-size: 3rem ;
     line-height: 1.5;
     color: rgb(118, 118, 118);
     text-decoration: none;
@@ -144,4 +160,91 @@
     background-repeat: no-repeat;
     background-position: 0px 100%, 100% 100%;
     transition: background-size 0.2s ease-in-out 0s;
+}
+
+/*-----Seccion 4-----*/
+
+.mora{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(83, 0, 130);
+    padding: 0px;
+}
+.tcontainer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.tcontainer h1{
+    line-height: 1.125em;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+    /* display: block; */
+}
+.tcontainer p{
+    font-size: 3rem ;
+    line-height: 1.5;
+    color: rgb(118, 118, 118);
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+    display: block;
+}
+.tcontainer a{
+    position: relative;
+    font-size: inherit;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-size: 0px 1px, 100% 1px;
+    color: default;
+    background-image: linear-gradient(120deg, rgb(138, 5, 190) 0%, rgb(138, 5, 190) 100%), linear-gradient(120deg, rgb(204, 204, 204) 0%, rgb(204, 204, 204) 100%);
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: 0px 100%, 100% 100%;
+    transition: background-size 0.2s ease-in-out 0s;
+}
+
+@media screen and (max-width: 575px) {
+	.scontainer h1{
+        line-height: 1.125em;
+        font-size: 2rem;
+        color: rgb(138, 5, 190);;
+        text-decoration: none;
+        text-rendering: optimizeLegibility;
+        font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+        display: block;
+    }
+
+    .scontainer p{
+        font-size: 1.5rem ;
+        line-height: 1.5;
+        color: rgb(118, 118, 118);
+        text-decoration: none;
+        text-rendering: optimizeLegibility;
+        font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+        display: block;
+    }
+
+    .tcontainer h1{
+        line-height: 1.125em;
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-rendering: optimizeLegibility;
+        font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+        /* display: block; */
+    }
+    .tcontainer p{
+        font-size: 1.5rem ;
+        line-height: 1.5;
+        color: rgb(118, 118, 118);
+        text-decoration: none;
+        text-rendering: optimizeLegibility;
+        font-family: Graphik,'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+        display: block;
+    }
 }
